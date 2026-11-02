@@ -1,0 +1,17 @@
+[project]
+name = "etl-pipeline-gcp"
+version = "0.1.0"
+description = "A production-grade ETL pipeline on Google Cloud Platform (GCP) from scratch"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faker>=40.44.0",
+    "google-cloud-bigquery>=3.47.0",
+    "google-cloud-storage>=3.17.1",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "psycopg2-binary>=2.9.13",
+    "pyarrow>=26.0.0",
+    "python-dotenv>=1.2.4",
+    "sqlalchemy>=2.1.6",
+]
