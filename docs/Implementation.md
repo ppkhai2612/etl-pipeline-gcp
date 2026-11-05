@@ -803,7 +803,7 @@ gcloud run jobs create etl-data-quality \
 ```bash
 gcloud scheduler jobs create http etl-data-quality-daily \
     --location=us-east1 \
-    --schedule="10 1 * * *" \
+    --schedule="0 3 * * *" \
     --time-zone="Asia/Ho_Chi_Minh" \
     --uri="https://us-east1-run.googleapis.com/apis/run.googleapis.com/v1/namespaces/etl-pipeline-gcp/jobs/etl-data-quality:run" \
     --http-method=POST \
